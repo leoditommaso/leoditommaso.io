@@ -1,0 +1,13 @@
+# Site settings
+title: Leandro Di Tommaso's tech blog
+email: leandro.ditommaso@mikroways.net
+description: > # this means to ignore newlines until "baseurl:"
+  Leandro Di Tommaso's tech blog where you will find lots of uninteresting
+  stuff that will get you bored unless you're an IT passionate guy.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://leoditommaso.io" # the base hostname & protocol for your site
+twitter_username: leoditommaso
+github_username:  leoditommaso
+
+# Build settings
+markdown: kramdown
