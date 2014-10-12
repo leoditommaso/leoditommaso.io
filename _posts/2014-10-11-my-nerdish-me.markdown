@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My nerdish me"
-date:   2014-10-11 16:07:48
+date:   '2014-10-11 16:07:48 -03:00'
 author: "Leandro Di Tommaso"
 categories: me
 ---
