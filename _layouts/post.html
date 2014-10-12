@@ -12,4 +12,11 @@ layout: default
     {{ content }}
   </article>
 
+<div class="pag-col-wrapper">
+  <div class="pag-col-1">
+    <p class="prev-page">{% if page.previous %}<a href="{{ page.previous.url }}"><- prev page</a>{% endif %}</p>
+  </div>
+  <div class="pag-col-2">
+    <p class="next-page">{% if page.next %}<a href="{{ page.next.url }}">next page -></a>{% endif %}</p>
+  </div>
 </div>
