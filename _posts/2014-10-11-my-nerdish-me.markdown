@@ -4,9 +4,10 @@ title:  "My nerdish me"
 date:   '2014-10-11 16:07:48 -03:00'
 author: "Leandro Di Tommaso"
 categories: me
+tags: me, blogging, jekyll, software
 ---
 Here I am, sitting in front of my computer, starting another blog... But this
-time is different for many reasons:
+time is different for many reasons, as detailed below.
 
 * This is not Wordpress, which was (and still is for many sites) my blogging
   platform of choice. Instead, I'm currently using Jekyll which I'm starting to
