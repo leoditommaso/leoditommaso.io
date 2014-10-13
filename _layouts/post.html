@@ -12,11 +12,30 @@ layout: default
     {{ content }}
   </article>
 
-<div class="pag-col-wrapper">
-  <div class="pag-col-1">
-    <p class="prev-page">{% if page.previous %}<a href="{{ page.previous.url }}"><- prev page</a>{% endif %}</p>
+
+<div class="nav-arrows">
+  {% if page.previous %}
+  <div class="nav-left">
+    <a href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>
   </div>
-  <div class="pag-col-2">
-    <p class="next-page">{% if page.next %}<a href="{{ page.next.url }}">next page -></a>{% endif %}</p>
+  {% endif %}
+  {% if page.next %}
+  <div class="nav-right">
+    <a href="{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
   </div>
+  {% endif %}
+</div>
+
+<div class="post-comments">
+ <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'leoditommaso';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
