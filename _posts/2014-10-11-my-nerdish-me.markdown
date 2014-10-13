@@ -3,6 +3,8 @@ layout: post
 title:  "My nerdish me"
 date:   '2014-10-11 16:07:48 -03:00'
 author: "Leandro Di Tommaso"
+summary: Here I am, sitting in front of my computer, starting another blog...
+  But this time is different for many reasons, as detailed below.
 categories: me
 tags: me, blogging, jekyll, software
 ---

@@ -3,6 +3,8 @@ layout: post
 title:  "Why reading would save you a lot of useless work"
 date:   '2014-10-12 16:51:21 -03:00'
 author: "Leandro Di Tommaso"
+summary: One day, when I was in high school, one of my teachers gave us an unexpected
+  exam with 20 exercises and 2 hours to solve it. He told us to read carefully
 categories: thoughts
 ---
 

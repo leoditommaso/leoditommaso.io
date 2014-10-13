@@ -3,6 +3,8 @@ layout: post
 title:  "The one second webserver"
 date:   '2014-10-12 00:13:21 -03:00'
 author: "Leandro Di Tommaso"
+summary: I've found myself many times in the need to share something quickly
+  with a colleague or a friend and ended up copying the files to an USB flash drive,
 categories: webserver tricks
 ---
 
