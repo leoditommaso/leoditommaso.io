@@ -8,6 +8,10 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+p, li, ul, dd, dl {
+  font-family: $font-text;
+  font-weight: 300;
+}
 
 
 /**
@@ -81,6 +85,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
+    font-family: $font-titles;
 }
 
 
