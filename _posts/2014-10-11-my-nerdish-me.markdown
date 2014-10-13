@@ -6,7 +6,7 @@ author: "Leandro Di Tommaso"
 summary: Here I am, sitting in front of my computer, starting another blog...
   But this time is different for many reasons, as detailed below.
 categories: me
-tags: me, blogging, jekyll, software
+tags: me blogging jekyll software
 ---
 Here I am, sitting in front of my computer, starting another blog... But this
 time is different for many reasons, as detailed below.
