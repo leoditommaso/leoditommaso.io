@@ -12,7 +12,7 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -91,6 +91,9 @@
 }
 
 
+.post-comments {
+    margin-top: 100px;
+}
 
 /**
  * Site footer
@@ -139,16 +142,27 @@
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
-.prev-page {
-    float: left;
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+.nav-arrows {
+    display: block;
+    font-size: smaller;
+    margin-bottom: $spacing-unit;
 }
 
-.next-page {
+.nav-page_number {
+    position: relative;
+    left: 40%;
+}
+
+.nav-left {
+    float: left;
+//    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+//    width:         calc(100% - (#{$spacing-unit} / 2));
+}
+
+.nav-right {
     float: right;
-    width: -webkit-calc(15% - (#{$spacing-unit} / 2));
-    width:         calc(15% - (#{$spacing-unit} / 2));
+//    width: -webkit-calc(65% - (#{$spacing-unit} / 2));
+//    width:         calc(65% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -163,13 +177,13 @@
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 
-    .prev-page {
+    .nav-left {
       float: left;
       width: -webkit-calc(50% - (#{$spacing-unit} / 2));
       width:         calc(50% - (#{$spacing-unit} / 2));
     }
 
-    .next-page {
+    .nav-right {
       float: right;
       width: -webkit-calc(100% - (#{$spacing-unit} / 2));
       width:         calc(100% - (#{$spacing-unit} / 2));
@@ -264,7 +278,8 @@
 }
 
 .post-excerpt {
-    margin-bottom: $spacing-unit;
+    margin-bottom: 10px;
+    border-bottom: 1px solid $grey-color-light;
     font-size: 16px;
     @include media-query($on-laptop) {
         font-size: 14px;
