@@ -1,15 +1,31 @@
-# Site settings
-title: leoditommaso.io
-footer_title: Leandro Di Tommaso's IT blog
-email: leandro.ditommaso@mikroways.net
-description: > # this means to ignore newlines until "baseurl:"
-  A blog where you will find lots of uninteresting stuff that
-  will get you bored... unless you're an IT passionate guy!
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://leoditommaso.io" # the base hostname & protocol for your site
-twitter_username: leoditommaso
-github_username:  leoditommaso
-paginate: 5
+# Site general settings
+title:              leoditommaso.io
+description:        > # this means to ignore newlines until "baseurl:"
+                    A blog where you will find lots of uninteresting stuff that
+                    will get you bored... unless you're an IT passionate guy!
+baseurl:            "" # the subpath of your site, e.g. /blog/
+url:                "http://leoditommaso.io/" # the base hostname & protocol for your site
+paginate:           5
+
+# Default site values.
+defaults:
+  - values:
+      layout:       post
+      author:       "Leandro Di Tommaso"
+      authorsite:   "https://twitter.com/leoditommaso"
+
+# Contact details and social network profiles.
+twitter_username:   leoditommaso
+github_username:    leoditommaso
+facebook_username:  leoditommaso
+linkedin_profile:   "http://ar.linkedin.com/in/leandroditommaso/"
+pictures_blog:      "http://leandroditommaso.com.ar"
+email:              leandro.ditommaso@mikroways.net
+
+# Prevent files from being compiled by Jekyll.
+exclude:            [README.md]
+
+...
 
 # Build settings
-markdown: kramdown
+markdown:           kramdown
