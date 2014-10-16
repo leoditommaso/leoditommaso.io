@@ -1,12 +1,10 @@
 ---
-layout: post
 title:  "Enable Ctrl+Alt+Backspace in Ubuntu"
 date:   '2014-10-12 01:41:21 -03:00'
-author: "Leandro Di Tommaso"
 summary: I always liked the Ctrl+Alt+Backspace combination to kill the desktop
   environment in Linux, for different reasons, because the graphical interface
 categories: ubuntu
-tag: operating systems, ubuntu, tricks
+tags: os ubuntu tricks
 ---
 
 I always liked the Ctrl+Alt+Backspace combination to kill the desktop
