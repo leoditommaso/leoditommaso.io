@@ -26,6 +26,17 @@
     }
 }
 
+.page-links {
+    color: $brand-color;
+    line-height: $base-line-height;
+    margin-bottom: 0px;
+    font-size: 14px;
+    // Gaps between nav items, but not on the first one
+//        &:not(:first-child) {
+//            margin-left: 20px;
+//        }
+}
+
 .site-nav {
     float: right;
     line-height: 56px;
@@ -34,15 +45,6 @@
         display: none;
     }
 
-    .page-link {
-        color: $site-title-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
 
     @include media-query($on-palm) {
         position: absolute;
@@ -98,6 +100,7 @@
 /**
  * Site footer
  */
+
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
@@ -127,22 +130,24 @@
     padding-left: $spacing-unit / 2;
 }
 
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+.footer-col-1, .footer-col-2 {
+    width: -webkit-calc(15% - (#{$spacing-unit} / 2));
+    width:         calc(15% - (#{$spacing-unit} / 2));
 }
 
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+.bottom-pages {
+    list-style-type: none;
+    margin-left: 0px;
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(70% - (#{$spacing-unit} / 2));
+    width:         calc(70% - (#{$spacing-unit} / 2));
+    text-align: right;
 }
 
-.nav-arrows {
+.nav-arrows,
+.tags {
     display: block;
     font-size: smaller;
     margin-bottom: $spacing-unit;
@@ -168,13 +173,13 @@
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(15% - (#{$spacing-unit} / 2));
+        width:         calc(15% - (#{$spacing-unit} / 2));
     }
 
     .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(70% - (#{$spacing-unit} / 2));
+        width:         calc(70% - (#{$spacing-unit} / 2));
     }
 
     .nav-left {
@@ -191,7 +196,13 @@
 }
 
 @include media-query($on-palm) {
-    .footer-col {
+    .footer-col-1,
+    .footer-col-2 {
+        float: none;
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+    .footer-col-3 {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
@@ -230,6 +241,16 @@
     font-size: 24px;
 }
 
+.archives-entry {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.fa {
+    color: $site-title-color;
+    padding-left: 3px;
+    padding-right: 3px;
+}
 
 
 /**
