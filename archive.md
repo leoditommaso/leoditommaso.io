@@ -3,7 +3,7 @@ title: Archive
 layout: default
 permalink: /archive/
 ---
-<div class="archives">
+<div class="archives"><h1>Archive</h1>
   {% assign last_year = 0 %}
   {% for post in site.posts %}
     {% capture current_year %}{{ post.date | date: '%Y' }}{% endcapture %}
