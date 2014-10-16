@@ -13,6 +13,7 @@ defaults:
       layout:       post
       author:       "Leandro Di Tommaso"
       authorsite:   "https://twitter.com/leoditommaso"
+      tags:         untagged
 
 # Contact details and social network profiles.
 twitter_username:   leoditommaso
@@ -29,3 +30,4 @@ exclude:            [README.md]
 
 # Build settings
 markdown:           kramdown
+
