@@ -4,17 +4,10 @@
 @charset "utf-8";
 
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400&subset=latin,latin-ext);
-@import url(http://fonts.googleapis.com/css?family=Lato:300&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300,400&subset=latin,latin-ext);
 
 // Our variables
-$font-text: Lato;
-//$font-text: Merriweather; cb
-//$font-text: Antic Slab;
-//$font-text: Overlock; cb
-//$font-text: Junge;
-//$font-text: Karma;
-//$font-text: Halant; could be
-//$font-text: Laila;
+$font-text: Merriweather;
 $font-titles: Ubuntu;
 
 $base-font-family: Ubuntu;
@@ -26,13 +19,10 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #208520;
-//$brand-color:      #2a7ae2;
-//$brand-color:      #936693;
+$brand-color:      #176b9f;
 
 $site-title-color: #ffffff;
-//$site-title-bg:    #136613;
-$site-title-bg:    #136613;
+$site-title-bg:    #004A6E;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
@@ -53,7 +43,6 @@ $on-laptop:        800px;
         @content;
     }
 }
-
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
