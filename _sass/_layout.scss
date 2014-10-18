@@ -13,7 +13,7 @@
 }
 
 .site-title {
-    font-size: 23px;
+    font-size: 24px;
     line-height: 110px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -24,15 +24,15 @@
 
     &,
     &:visited {
-        color: $site-title-color;
+      color: $site-title-color;
     }
 }
 
-.page-links {
+.page-link {
     color: $brand-color;
     line-height: $base-line-height;
     margin-bottom: 0px;
-    font-size: 14px;
+    font-size: 12px;
     // Gaps between nav items, but not on the first one
 //        &:not(:first-child) {
 //            margin-left: 20px;
@@ -139,9 +139,10 @@
     width:         calc(15% - (#{$spacing-unit} / 2));
 }
 
-.bottom-pages {
+.bottom-text {
     list-style-type: none;
     margin-left: 0px;
+    font-family: $font-titles;
 }
 
 .footer-col-3 {
@@ -236,14 +237,16 @@
 }
 
 .post-meta {
-    font-size: 13px;
+    font-size: 14px;
     color: $grey-color;
+    font-family: $font-titles;
 }
 
 a.post-link {
     display: block;
     font-size: 24px;
     color: $post-link;
+    margin-bottom: 4px;
 }
 
 .archives-entry {
