@@ -5,10 +5,12 @@
 
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400&subset=latin,latin-ext);
 @import url(http://fonts.googleapis.com/css?family=Merriweather:300,400&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
 
 // Our variables
 $font-text: Merriweather;
 $font-titles: Ubuntu;
+$font-mono: Inconsolata;
 
 $base-font-family: Ubuntu;
 $base-font-size:   16px;
@@ -19,16 +21,19 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #176b9f;
+$brand-color:      lighten(#2B7598, 15%);
+$post-link:        darken(#2B7598, 3%);
+//$brand-color:      #176b9f;
 
 $site-title-color: #ffffff;
-$site-title-bg:    #004A6E;
+//$site-title-bg:    #004A6E;
+$site-title-bg:    darken(#2B7598, 5%);
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        900px;
 
 
 // Using media queries with like this:
