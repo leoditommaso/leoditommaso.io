@@ -16,7 +16,7 @@ usability, UI, CPU scheduling, memory and I/O management, networking performance
 package managers... the list would be endless, as would be the arguments that
 supports one operating system or the other.
 
-I've used a lot of different OSs. In fact, not so many years ago, my notebook
+I've used a lot of different OSs. In fact, not so many years ago, my laptop
 (the one I used for work and for my 'experiments') was reinstalled once a week.
 Mandrake, Debian, Red Hat, Fedora, Slackware, Gentoo, Suse, Knoppix, Xandros,
 Linspire, Ubuntu, CentOS (just to name some Linux distros) and of course every 
