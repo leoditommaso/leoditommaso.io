@@ -11,4 +11,4 @@ One has a perfect night planned. Weeks waiting for the opportunity to go to that
 
 Regarding you, you spend your entire night awake, trying to fix things up. And although deep inside you you're a little bit disappointed with how things turned out, what you really feels is adrenaline running through your veins, an extremely delightful excitement which you enjoy despite any circumstances around. Good thing, you have mate and loud music to get you focused. But to remember: next time, save some beers for these moments.
 
-![Fixing things up](/images/servers_and_mate.jpg)
+![Fixing things up](/assets/images/servers_and_mate.jpg)
