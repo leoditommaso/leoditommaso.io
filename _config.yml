@@ -1,8 +1,7 @@
 # Site general settings
 title:              leoditommaso.io
 description:        > # this means to ignore newlines until "baseurl:"
-                    A blog where you will find lots of uninteresting stuff that
-                    will get you bored... unless you're an IT passionate guy!
+                    Proudly powered by FreeBSD!
 baseurl:            "" # the subpath of your site, e.g. /blog/
 url:                "http://leoditommaso.io/" # the base hostname & protocol for your site
 paginate:           5
