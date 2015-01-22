@@ -1,6 +1,6 @@
 ---
 title:  "Sometimes things can go wrong"
-ate:   '2014-10-28 20:06:21 -03:00'
+date:   '2014-10-28 20:06:21 -03:00'
 summary: One has a perfect night planned. Weeks waiting for the opportunity to go to that
   restaurant everybody is talking about and the moment has finally arrived. In your head, a delicious meal with
 categories: fail!
