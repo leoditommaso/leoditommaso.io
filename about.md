@@ -26,8 +26,7 @@ which happens to be called DevOps, in which my powerful bash scripts are not
 enough and coding skills become more important.
 
 I'm actually working as a DevOp at UNLP and I have my own company called
-[Mikroways][Mikroways], through which you could hire me if you have work to do
-related to servers or networking.
+[Mikroways][Mikroways], through which you could hire me.
 
 For any additional details about me professionally speaking, you could check out
 [my LinkedIn profile][LinkedIn] or [my CV][CV] (which are only available in
