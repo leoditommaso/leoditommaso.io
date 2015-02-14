@@ -11,7 +11,7 @@ defaults:
   - values:
       layout:       post
       author:       "Leandro Di Tommaso"
-      authorsite:   "https://twitter.com/leoditommaso"
+      authorsite:   "/about/"
       tags:         untagged
 
 # Contact details and social network profiles.
