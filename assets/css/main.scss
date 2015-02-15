@@ -3,16 +3,16 @@
 ---
 @charset "utf-8";
 
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400&subset=latin,latin-ext);
-@import url(http://fonts.googleapis.com/css?family=Merriweather:300,400&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300&subset=latin,latin-ext);
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=Arvo:400);
 
 // Our variables
 $font-text: Merriweather;
-$font-titles: Ubuntu;
+$font-titles: Arvo;
 $font-mono: Inconsolata;
 
-$base-font-family: Ubuntu;
+$base-font-family: Arvo;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;

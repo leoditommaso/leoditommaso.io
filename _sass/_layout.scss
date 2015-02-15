@@ -37,6 +37,7 @@
     line-height: $base-line-height;
     margin-bottom: 0px;
     font-size: 12px;
+    font-family: $base-font-family;
     // Gaps between nav items, but not on the first one
 //        &:not(:first-child) {
 //            margin-left: 20px;
@@ -252,14 +253,14 @@
 }
 
 .post-meta {
-    font-size: 14px;
+    font-size: 13px;
     color: $grey-color;
     font-family: $font-titles;
 }
 
 a.post-link {
     display: block;
-    font-size: 24px;
+    font-size: 23px;
     color: $post-link;
     margin-bottom: 4px;
 }
