@@ -125,33 +125,16 @@
     margin-left: 0;
 }
 
-.footer-col-wrapper, .page-col-wrapper {
-    font-size: 13px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
 .footer-col {
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
 }
 
-.footer-col-1, .footer-col-2 {
-    width: -webkit-calc(15% - (#{$spacing-unit} / 2));
-    width:         calc(15% - (#{$spacing-unit} / 2));
-}
-
 .bottom-text {
     list-style-type: none;
     margin-left: 0px;
     font-family: $font-titles;
-}
-
-.footer-col-3 {
-    width: -webkit-calc(70% - (#{$spacing-unit} / 2));
-    width:         calc(70% - (#{$spacing-unit} / 2));
     text-align: right;
 }
 
