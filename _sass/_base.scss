@@ -25,8 +25,12 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    width: 100%;
 }
 
+html {
+    height: 100%;
+}
 
 
 /**
@@ -140,6 +144,7 @@ code {
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
+    font-family: Inconsolata;
 }
 
 code {
@@ -163,8 +168,9 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(900px - (#{$spacing-unit} * 2));
-    max-width:         calc(900px - (#{$spacing-unit} * 2));
+    /*max-width: -webkit-calc(900px - (#{$spacing-unit} * 2));*/
+    /*max-width:         calc(900px - (#{$spacing-unit} * 2));*/
+    margin-top: 60px;
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;

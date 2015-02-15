@@ -5,6 +5,7 @@ description:        > # this means to ignore newlines until "baseurl:"
 baseurl:            "" # the subpath of your site, e.g. /blog/
 url:                "http://leoditommaso.io/" # the base hostname & protocol for your site
 paginate:           5
+paginate_path:     "/blog/page:num"
 
 # Default site values.
 defaults:

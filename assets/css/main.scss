@@ -13,7 +13,7 @@ $font-titles: Arvo;
 $font-mono: Inconsolata;
 
 $base-font-family: Arvo;
-$base-font-size:   16px;
+$base-font-size:   14px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -51,6 +51,8 @@ $on-laptop:        900px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
+        "bootstrap",
         "layout",
+        "leoditommaso",
         "syntax-highlighting"
 ;

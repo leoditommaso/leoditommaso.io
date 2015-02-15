@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Recent posts</h1>
+
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <article class="post-excerpt">{{ post.summary }}</article>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+<div class="nav-arrows">
+  {% if paginator.previous_page == 1 %}
+    <a href="/blog" class="nav-left">Previous</a>
+  {% elsif paginator.previous_page %}
+    <a href="/blog/page{{ paginator.previous_page }}" class="nav-left">Previous</a>
+  {% else %}
+    <span class="nav-left">Previous</span>
+  {% endif %}
+  <span class="nav-page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="/blog/page{{ paginator.next_page }}" class="nav-right">Next</a>
+  {% else %}
+    <span class="nav-right">Next</span>
+  {% endif %}
+</div>
+{% endif %}
+
+</div>
