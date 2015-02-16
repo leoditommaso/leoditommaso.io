@@ -83,6 +83,7 @@ hr .intro-divider {
   margin-right: auto;
 }
 
+.intro-message > h3,
 .intro-message > h4 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
@@ -116,4 +117,13 @@ hr .intro-divider {
     font-size: 13px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+h1.error-code {
+  font-size: 104px;
+  margin-bottom: 45px;
+}
+
+h4.error-message {
+  font-size: 44px;
 }
