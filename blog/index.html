@@ -11,7 +11,7 @@ layout: default
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}</span>
 
-        <h2>
+        <h2 class="posts-headings">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           <article class="post-excerpt">{{ post.summary }}</article>
         </h2>
