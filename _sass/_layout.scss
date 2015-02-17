@@ -269,11 +269,6 @@ a.post-link {
     margin-top: 5px;
 }
 
-.archives-entry {
-    font-size: 16px;
-    margin-bottom: 5px;
-}
-
 
 /**
  * Posts
@@ -287,6 +282,7 @@ a.post-link {
     font-size: 38px;
     letter-spacing: -1px;
     line-height: 1.3;
+    margin-bottom: 40;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -338,4 +334,15 @@ a.post-link {
 
 .posts-headings {
   margin-top: 5px;
+}
+
+h3.archives-entry {
+    font-size: 18px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+h2.archive-year {
+    margin-top: 35px;
+    margin-bottom: 13px;
 }

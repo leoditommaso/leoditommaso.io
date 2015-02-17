@@ -1,9 +1,10 @@
 ---
 title: Archive
-layout: default
+layout: page
 permalink: /archive/
 ---
-<div class="archives"><h1>Archive</h1>
+
+<div class="archives"></h1>
   {% assign last_year = 0 %}
   {% for post in site.posts %}
     {% capture current_year %}{{ post.date | date: '%Y' }}{% endcapture %}
