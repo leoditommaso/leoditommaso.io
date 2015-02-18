@@ -141,18 +141,18 @@
 .footer-col-1, .footer-col-2 {
     width: -webkit-calc(15% - (#{$spacing-unit} / 2));
     width:         calc(15% - (#{$spacing-unit} / 2));
+    text-align: left;
 }
 
 .bottom-text {
     list-style-type: none;
     margin-left: 0px;
-    text-align: right;
     font-family: $font-titles;
 }
 
 .footer-col-3 {
-    width: -webkit-calc(70% - (#{$spacing-unit} / 2));
-    width:         calc(70% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(87% - (#{$spacing-unit} / 2));
+    width:         calc(87% - (#{$spacing-unit} / 2));
     text-align: right;
 }
 
