@@ -125,16 +125,34 @@
     margin-left: 0;
 }
 
+.footer-col-wrapper, .page-col-wrapper {
+    font-size: 13px;
+    color: $grey-color;
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
 .footer-col {
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
 }
 
+.footer-col-1, .footer-col-2 {
+    width: -webkit-calc(15% - (#{$spacing-unit} / 2));
+    width:         calc(15% - (#{$spacing-unit} / 2));
+    text-align: left;
+}
+
 .bottom-text {
     list-style-type: none;
     margin-left: 0px;
     font-family: $font-titles;
+}
+
+.footer-col-3 {
+    width: -webkit-calc(87% - (#{$spacing-unit} / 2));
+    width:         calc(87% - (#{$spacing-unit} / 2));
     text-align: right;
 }
 
@@ -224,6 +242,8 @@
 
 .page-heading {
     font-weight: 300;
+    margin-bottom: 48px;
+    margin-top: 75px;
 }
 
 .post-list {
@@ -246,11 +266,7 @@ a.post-link {
     font-size: 23px;
     color: $post-link;
     margin-bottom: 4px;
-}
-
-.archives-entry {
-    font-size: 16px;
-    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 
@@ -262,9 +278,11 @@ a.post-link {
 }
 
 .post-title {
+    margin-top: 70px;
     font-size: 38px;
     letter-spacing: -1px;
     line-height: 1.3;
+    margin-bottom: 40;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -305,11 +323,26 @@ a.post-link {
 .post-excerpt {
     line-height: 1.5;
     font-family: $font-text;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     padding-bottom: 10px;
     border-bottom: 1px solid $grey-color-light;
     font-size: 15px;
     @include media-query($on-laptop) {
         font-size: 14px;
     }
+}
+
+.posts-headings {
+  margin-top: 5px;
+}
+
+h3.archives-entry {
+    font-size: 18px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+h2.archive-year {
+    margin-top: 35px;
+    margin-bottom: 13px;
 }
