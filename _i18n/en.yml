@@ -1,0 +1,19 @@
+homepage:
+  quote: Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth.
+
+global:
+  about: About
+  blog: Blog
+  archive: Archive
+  contribute: Contribute
+  license: License
+  photography: Photography
+  email: E-mail
+  spanish: Español
+  english: English
+  other_lang: Español
+  lang_path: ""
+  lang_other_path: /es
+
+about:
+  link: about

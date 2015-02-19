@@ -1,0 +1,19 @@
+homepage:
+  quote: Una vez que eliminás lo imposible, lo que queda, por improbable que parezca, debe ser la verdad.
+
+global:
+  about: Sobre mi
+  blog: Blog
+  archive: Archivos
+  contribute: Contribuye
+  license: Licencia
+  photography: Forografía
+  email: Correo
+  spanish: Español
+  english: English
+  other_lang: English
+  lang_path: /es
+  lang_other_path: /
+
+about:
+  link: "sobre-mi"
