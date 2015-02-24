@@ -7,4 +7,4 @@ browser to [http://leoditommaso.io](http://leoditommaso.io).
 # Author
 
 Author:: [Leandro Di Tommaso](http://leoditommaso.io) 
-[<leandro.ditommaso@mikroways.net>](mailto:leandro.ditommaso@mikroways.net)
+<leandro.ditommaso@mikroways.net>
