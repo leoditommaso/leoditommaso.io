@@ -29,6 +29,8 @@ $site-title-bg:    darken(#2B7598, 5%);
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$background:       #256684;
+$background-dark:  darken($background, 25%);
 
 $on-palm:          600px;
 $on-laptop:        900px;

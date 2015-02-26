@@ -15,6 +15,10 @@ defaults:
       authorsite:   "/about/"
       tags:         untagged
 
+# Multilingual support
+languages: ["en", "es"]
+exclude_from_localizations: ["Gemfile", "Gemfile.lock", "README.md", "assets"]
+
 # Contact details and social network profiles.
 twitter_username:   leoditommaso
 github_username:    leoditommaso
@@ -26,8 +30,6 @@ email:              leandro.ditommaso@mikroways.net
 # Prevent files from being compiled by Jekyll.
 exclude:            [README.md]
 
-...
 
 # Build settings
 markdown:           kramdown
-

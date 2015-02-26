@@ -126,3 +126,11 @@ h1.error-code {
 h4.error-message {
   font-size: 44px;
 }
+
+#lang {
+  color: $background;
+  font-size: 11px;
+}
+#lang:hover {
+  color: $background-dark;
+}
