@@ -14,6 +14,7 @@ global:
   other_lang: Español
   lang_path: ""
   lang_other_path: /es
+  lang: 'en'
 
 about:
   link: about

@@ -13,7 +13,8 @@ global:
   english: English
   other_lang: English
   lang_path: /es
-  lang_other_path: /
+  lang_other_path: ""
+  lang: 'es'
 
 about:
   link: "sobre-mi"

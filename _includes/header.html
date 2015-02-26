@@ -1,6 +1,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
+            {% capture lang %}{% t global.lang %}{% endcapture %}
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -9,21 +10,36 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                {% if lang == 'es' %}
+                <img class="pic" src="http://leoditommaso.io/assets/images/leandroditommaso.jpg" alt="Leandro Di Tommaso"/><a class="navbar-brand topnav title" href="/es">{{ site.title }}</a>
+                {% else %}
                 <img class="pic" src="http://leoditommaso.io/assets/images/leandroditommaso.jpg" alt="Leandro Di Tommaso"/><a class="navbar-brand topnav title" href="/">{{ site.title }}</a>
+                {% endif %}
             </div>
+            {% capture lang_other_path %}{% t global.lang_other_path %}{% endcapture %}
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                    <a class="navbar-link" href="{{ site.baseurl_root }}{% t global.lang_path %}/about/">{% t global.about %}</a>
-                    </li>
-                    <li>
-                    <a class="navbar-link" href="{{ site.baseurl_root }}{% t global.lang_path %}/blog/">{% t global.blog %}</a>
-                    </li>
-                    <li>
-                    <a class="navbar-link" href="{{ site.baseurl_root }}{% t global.lang_path %}/archive/">{% t global.archive %}</a>
+                    {% if lang == 'es' %}
+                    <a id="lang" class="navbar-link" href="{{ page.url | prepend: lang_other_path | replace: '/es/', '/' }}">{% t global.other_lang %}</a>
+                    {% else %}
+                    <a id="lang" class="navbar-link" href="{{ page.url | prepend: lang_other_path }}">{% t global.other_lang %}</a>
+                    {% endif %}
                     </li>
                 </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                    <a class="navbar-link" href="{% t global.lang_path %}/about/">{% t global.about %}</a>
+                    </li>
+                    <li>
+                    <a class="navbar-link" href="{% t global.lang_path %}/blog/">{% t global.blog %}</a>
+                    </li>
+                    <li>
+                    <a class="navbar-link" href="{% t global.lang_path %}/archive/">{% t global.archive %}</a>
+                    </li>
+                </ul>
+                    <span class="span-lang"></span>
             </div>
             <!-- /.navbar-collapse -->
         </div>
