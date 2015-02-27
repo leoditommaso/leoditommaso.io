@@ -1,14 +1,13 @@
 homepage:
   quote: Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth.
-
-global:
-  about: About
-  blog: Blog
-  archive: Archive
-  contribute: Contribute
-  license: License
   photography: Photography
   email: E-mail
+
+error_pages:
+  message_404: The page you're looking for doesn't exist!
+
+global:
+  description: Proudly powered by Jekyll & FreeBSD!
   spanish: Español
   english: English
   other_lang: Español
@@ -16,5 +15,21 @@ global:
   lang_other_path: /es
   lang: 'en'
 
-about:
-  link: about
+page_names:
+  about: about
+  archive: archive
+  blog: blog
+
+pages:
+  about: About
+  blog: Blog
+  recent_posts: Recent posts
+  archive: Archive
+  contribute: Contribute
+  license: License
+
+navigation:
+  previous: Previous
+  next: Next
+  page: Page
+  of: of

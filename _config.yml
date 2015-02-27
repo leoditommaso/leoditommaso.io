@@ -1,7 +1,5 @@
 # Site general settings
 title:              leoditommaso.io
-description:        > # this means to ignore newlines until "baseurl:"
-                    Proudly powered by Jekyll & FreeBSD!
 baseurl:            "" # the subpath of your site, e.g. /blog/
 url:                "https://leoditommaso.io/" # the base hostname & protocol for your site
 paginate:           6
