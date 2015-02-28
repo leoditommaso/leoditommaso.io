@@ -22,9 +22,9 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                     {% if lang == 'es' %}
-                    <a id="lang" class="navbar-link" href="{{ page.url | prepend: lang_other_path | replace: '/es/', '/' }}">{% t global.other_lang %}</a>
+                    <a id="lang" class="navbar-link" href="/">{% t global.other_lang %}</a>
                     {% else %}
-                    <a id="lang" class="navbar-link" href="{{ page.url | prepend: lang_other_path }}">{% t global.other_lang %}</a>
+                    <a id="lang" class="navbar-link" href="/es">{% t global.other_lang %}</a>
                     {% endif %}
                     </li>
                 </ul>
