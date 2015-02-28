@@ -19,6 +19,8 @@ page_names:
   about: about
   archive: archive
   blog: blog
+  contribute: contribute
+  license: license
 
 pages:
   about: About

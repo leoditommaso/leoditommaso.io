@@ -19,6 +19,8 @@ page_names:
   about: sobre
   archive: archivo
   blog: blog
+  contribute: contribuye
+  license: licencia
 
 pages:
   about: Sobre
