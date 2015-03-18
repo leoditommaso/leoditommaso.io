@@ -3,6 +3,9 @@ title:  "Enable Ctrl+Alt+Backspace in Ubuntu"
 date:   '2014-10-12 01:41:21 -03:00'
 summary: I always liked the Ctrl+Alt+Backspace combination to kill the desktop
   environment in Linux, for different reasons, because the graphical interface
+  just freezes or maybe because I reconfigured the desktop environment and it is a
+  fast way to restart the X server. But since 10.04, Ubuntu has disabled this key 
+  combination.
 categories: ubuntu
 tags: os ubuntu tricks
 ---

@@ -3,6 +3,9 @@ title:  "Why reading would save you a lot of useless work"
 date:   '2014-10-12 16:51:21 -03:00'
 summary: One day, when I was in high school, one of my teachers gave us an unexpected
   exam with 20 exercises and 2 hours to solve it. He told us to read carefully
+  every exercise before doing the test and he also told us that we could leave
+  the class as soon as the test was finished. The test began with a general
+  explanation insisting on reading everything before solving the exam.
 categories: thoughts
 tags: thoughts reading experiencies
 ---
