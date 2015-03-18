@@ -1,7 +1,11 @@
 ---
 title:  "Getting there!"
 date:   '2015-03-17 22:35:21 -03:00'
-summary: 
+summary: I'm writing this post on the plane which is taking me, my parents and my
+  youngest sister from Buenos Aires to Paris. We've been on the plane for about
+  five hours now and we have another eight hours left, but we're getting closer to
+  Paris, we're getting there! And that fact made me reflect on the objectives I
+  have in my life and whether I'm getting closer to meet them or not.
 categories: life
 tags: travel projects
 ---
