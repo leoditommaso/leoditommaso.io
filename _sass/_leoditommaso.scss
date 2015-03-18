@@ -80,12 +80,15 @@ hr .intro-divider {
     text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 22px;
+  margin-bottom: 22px;
 }
 
 .intro-message > h3,
 .intro-message > h4 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
+
 
 @media(max-width:767px) {
     .intro-message {
@@ -131,6 +134,15 @@ h4.error-message {
   color: $background;
   font-size: 11px;
 }
+
 #lang:hover {
   color: $background-dark;
+}
+
+.fa-sn {
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  padding-left: 15px;
+  padding-right: 15px;
 }
