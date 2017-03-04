@@ -68,5 +68,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll
-  jekyll-multiple-languages-plugin
+  execjs (~> 2.3.0)
+  jekyll (~> 2.5.3)
+  jekyll-multiple-languages-plugin (~> 1.2.8)
+
+BUNDLED WITH
+   1.12.5

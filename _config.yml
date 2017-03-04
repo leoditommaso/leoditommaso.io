@@ -26,7 +26,7 @@ pictures_blog:      "http://leandroditommaso.com.ar"
 email:              leandro.ditommaso@mikroways.net
 
 # Prevent files from being compiled by Jekyll.
-exclude:            [README.md]
+exclude:            [README.md, vendor]
 
 
 # Build settings

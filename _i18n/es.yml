@@ -7,7 +7,7 @@ error_pages:
   message_404: ¡La página que estás buscando no existe!
 
 global:
-  description: ¡Orgullosamente servido por Jekyll y FreeBSD!
+  description: ¡Orgullosamente servido por Jekyll!
   spanish: Español
   english: English
   other_lang: English
